@@ -29,6 +29,8 @@ public class ListaAziendeUniversita
 			
 			this.listaAziende.add(az);
 		}
+		
+		reader.close();
 	}
 	
 	public String toString()
